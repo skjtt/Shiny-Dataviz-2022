@@ -37,7 +37,27 @@ ui <- dashboardPage(
                     fluidRow(valueBoxOutput(width = 3, "rt"), 
                              (valueBoxOutput(width = 3, "na")), 
                              (valueBoxOutput(width = 3, "tp")), 
-                             (valueBoxOutput(width = 3, "Dt")))),
+                             (valueBoxOutput(width = 3, "Dt"))),
+                fluidRow(
+                  
+                    tabBox(title = "tendens", id = "tendens", width = 12,
+                           
+                           tabPanel("kontakttal", 
+                                    fluidRow(column(width = 4, box("vælg datoer", status = "primary", width = NULL,
+                                                                   solidHeader = TRUE,
+                                                                   
+                                                                   dateRangeInput(inputId = "rt_Date", "vælg datoer",
+                                                                                  start = Sys.Date(),
+                                                                                  end = Sys.Date(),
+                                                                                  max = Sys.Date(),
+                                                                                  startview = "month",
+                                                                                  weekstart = 1),
+                                                                                  
+                                                                    checkboxInput("trend_line", label = "plot en tendenslinje", value = FALSE),
+                                                                    submitButton("lav ændringer")))),
+                                    fluidRow(column(width = 12, box(title = "kontakttal over tid", status = "primary", width = NULL)))))
+                )
+                ),
         
       
     )

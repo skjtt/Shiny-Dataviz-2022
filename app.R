@@ -45,7 +45,7 @@ ui <- fluidPage(
             
             submitButton("Lav ændringer")
             
-        ),
+        )
 
         # Show a plot of the generated distribution
         mainPanel(
