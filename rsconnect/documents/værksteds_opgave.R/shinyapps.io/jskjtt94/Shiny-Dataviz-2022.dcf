@@ -1,0 +1,14 @@
+name: Shiny-Dataviz-2022
+title: Shiny-Dataviz-2022
+username:
+account: jskjtt94
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5482302
+bundleId: 5492748
+url: https://jskjtt94.shinyapps.io/Shiny-Dataviz-2022/
+when: 1642765312.03714
+lastSyncTime: 1642765312.03716
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: app.R|Dash_app.R|Deaths_over_time.csv|K2 - passat.xlsx|Rt_cases_2021_04_13.csv|Rt_cases_2022_01_18.csv|shiny_3_lektion/.DS_Store|shiny_3_lektion/app.R|shiny_3_lektion/K2 - passat.xlsx|shiny_3_lektion/www/.DS_Store|shiny_3_lektion/www/dania_logo.png|Test_pos_over_time.csv|værksteds_opgave/.DS_Store|værksteds_opgave/app.R|www/.DS_Store|www/dania_logo.png
